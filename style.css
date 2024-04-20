@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+   background: linear-gradient(45deg, #ff96f6, #ff77e9, #ff58dc); /* Define o degradê */
+}
+
+.container {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+  border-radius: 20px; /* Faz os botões mais arredondados */
+  background: linear-gradient(45deg, #ec6fa9, #e84f9e, #e1358d); /* Define o degradê nos botões */
+  color: white; /* Define a cor do texto para branco */
+}
+
+button:hover {
+  transform: scale(1.1);
+}
