@@ -37,3 +37,7 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+
+button:active {
+  transform: none; /* Remove a transformação quando o botão é clicado */
+}
